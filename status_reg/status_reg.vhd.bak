@@ -1,0 +1,33 @@
+-- status bit register
+--
+-- author  : Tatenda Muvhu & Ronewa Ndou
+-- version : 16-08-17
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- status bit register entity
+entity status_reg is  
+port ( CLK : in std_logic; 
+			N : out std_logic;
+			C : out std_logic;
+			Z  : out std_logic;
+			load  : in std_logic; 
+			D     : in std_logic_vector( 2 downto 0));  
+end status_reg;  
+
+-- behavioural description of status bit register
+architecture behavioural of status_reg is  
+  begin  
+   process (CLK,load)  
+    begin  
+    
+	elsif (CLK'event and CLK='1' ) then  
+		if load = '1' then 
+			N <= D(0);
+			Z <= D(1);
+			C <= D(2);
+		end if; 
+    end if; 
+  end process;  
+ end behavioural; 

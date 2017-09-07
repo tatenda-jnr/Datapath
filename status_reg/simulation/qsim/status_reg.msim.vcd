@@ -1,0 +1,449 @@
+$comment
+	File created using the following command:
+		vcd file status_reg.msim.vcd -direction
+$end
+$date
+	Wed Sep  6 14:51:30 2017
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module status_reg_vhd_vec_tst $end
+$var wire 1 ! C $end
+$var wire 1 " CLK $end
+$var wire 1 # in_C $end
+$var wire 1 $ in_N $end
+$var wire 1 % in_Z $end
+$var wire 1 & N $end
+$var wire 1 ' Z $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var wire 1 + devoe $end
+$var wire 1 , devclrn $end
+$var wire 1 - devpor $end
+$var wire 1 . ww_devoe $end
+$var wire 1 / ww_devclrn $end
+$var wire 1 0 ww_devpor $end
+$var wire 1 1 ww_CLK $end
+$var wire 1 2 ww_N $end
+$var wire 1 3 ww_C $end
+$var wire 1 4 ww_Z $end
+$var wire 1 5 ww_in_N $end
+$var wire 1 6 ww_in_Z $end
+$var wire 1 7 ww_in_C $end
+$var wire 1 8 \CLK~inputclkctrl_INCLK_bus\ [3] $end
+$var wire 1 9 \CLK~inputclkctrl_INCLK_bus\ [2] $end
+$var wire 1 : \CLK~inputclkctrl_INCLK_bus\ [1] $end
+$var wire 1 ; \CLK~inputclkctrl_INCLK_bus\ [0] $end
+$var wire 1 < \N~output_o\ $end
+$var wire 1 = \C~output_o\ $end
+$var wire 1 > \Z~output_o\ $end
+$var wire 1 ? \CLK~input_o\ $end
+$var wire 1 @ \CLK~inputclkctrl_outclk\ $end
+$var wire 1 A \in_N~input_o\ $end
+$var wire 1 B \N~reg0feeder_combout\ $end
+$var wire 1 C \N~reg0_q\ $end
+$var wire 1 D \in_C~input_o\ $end
+$var wire 1 E \C~reg0feeder_combout\ $end
+$var wire 1 F \C~reg0_q\ $end
+$var wire 1 G \in_Z~input_o\ $end
+$var wire 1 H \Z~reg0feeder_combout\ $end
+$var wire 1 I \Z~reg0_q\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+1)
+x*
+1+
+1,
+1-
+1.
+1/
+10
+01
+02
+03
+04
+05
+06
+07
+0<
+0=
+0>
+x?
+x@
+xA
+xB
+0C
+xD
+xE
+0F
+xG
+xH
+0I
+18
+19
+1:
+x;
+$end
+#759
+0G
+#761
+0?
+0A
+0D
+0;
+#919
+0@
+#1217
+0B
+#2397
+0E
+#3835
+0H
+#50000
+1"
+11
+#50596
+1?
+1;
+#50776
+1@
+#100000
+0"
+01
+#100761
+0?
+0;
+#100919
+0@
+#140000
+1%
+16
+#140594
+1G
+#143425
+1H
+#150000
+1"
+11
+#150596
+1?
+1;
+#150776
+1@
+#152247
+1I
+#155440
+1>
+14
+1'
+#200000
+0"
+01
+#200761
+0?
+0;
+#200919
+0@
+#220000
+0%
+1$
+06
+15
+#220596
+1A
+#220759
+0G
+#221051
+1B
+#223835
+0H
+#250000
+1"
+11
+#250596
+1?
+1;
+#250776
+1@
+#252247
+0I
+#252272
+1C
+#255449
+0>
+04
+0'
+#255532
+1<
+12
+1&
+#300000
+0"
+01
+#300761
+0?
+0;
+#300919
+0@
+#320000
+1%
+16
+#320594
+1G
+#323425
+1H
+#350000
+1"
+11
+#350596
+1?
+1;
+#350776
+1@
+#352247
+1I
+#355440
+1>
+14
+1'
+#380000
+0%
+0$
+1#
+06
+05
+17
+#380596
+1D
+#380759
+0G
+#380761
+0A
+#381217
+0B
+#382314
+1E
+#383835
+0H
+#400000
+0"
+01
+#400761
+0?
+0;
+#400919
+0@
+#450000
+1"
+11
+#450596
+1?
+1;
+#450776
+1@
+#452247
+0I
+#452260
+1F
+#452272
+0C
+#455369
+1=
+13
+1!
+#455449
+0>
+04
+0'
+#455570
+0<
+02
+0&
+#500000
+0"
+01
+#500761
+0?
+0;
+#500919
+0@
+#520000
+1%
+16
+#520594
+1G
+#523425
+1H
+#550000
+1"
+11
+#550596
+1?
+1;
+#550776
+1@
+#552247
+1I
+#555440
+1>
+14
+1'
+#580000
+0%
+06
+#580759
+0G
+#583835
+0H
+#600000
+0"
+01
+#600761
+0?
+0;
+#600919
+0@
+#620000
+1$
+15
+#620596
+1A
+#621051
+1B
+#650000
+1"
+11
+#650596
+1?
+1;
+#650776
+1@
+#652247
+0I
+#652272
+1C
+#655449
+0>
+04
+0'
+#655532
+1<
+12
+1&
+#700000
+0"
+01
+#700761
+0?
+0;
+#700919
+0@
+#720000
+1%
+16
+#720594
+1G
+#723425
+1H
+#750000
+1"
+11
+#750596
+1?
+1;
+#750776
+1@
+#752247
+1I
+#755440
+1>
+14
+1'
+#780000
+0%
+0$
+0#
+06
+05
+07
+#780759
+0G
+#780761
+0D
+0A
+#781217
+0B
+#782397
+0E
+#783835
+0H
+#800000
+0"
+01
+#800761
+0?
+0;
+#800919
+0@
+#850000
+1"
+11
+#850596
+1?
+1;
+#850776
+1@
+#852247
+0I
+#852260
+0F
+#852272
+0C
+#855358
+0=
+03
+0!
+#855449
+0>
+04
+0'
+#855570
+0<
+02
+0&
+#900000
+0"
+01
+#900761
+0?
+0;
+#900919
+0@
+#950000
+1"
+11
+#950596
+1?
+1;
+#950776
+1@
+#1000000

@@ -1,0 +1,323 @@
+/*
+ Copyright (C) 2017  Intel Corporation. All rights reserved.
+ Your use of Intel Corporation's design tools, logic functions 
+ and other software and tools, and its AMPP partner logic 
+ functions, and any output files from any of the foregoing 
+ (including device programming or simulation files), and any 
+ associated documentation or information are expressly subject 
+ to the terms and conditions of the Intel Program License 
+ Subscription Agreement, the Intel Quartus Prime License Agreement,
+ the Intel MegaCore Function License Agreement, or other 
+ applicable license agreement, including, without limitation, 
+ that your use is for the sole purpose of programming logic 
+ devices manufactured by Intel and sold by Intel or its 
+ authorized distributors.  Please refer to the applicable 
+ agreement for further details.
+*/
+MODELDATA
+/*MODELDATA HEADER*/
+/*
+ This file contains Fast Corner delays for the design using part EP4CE6E22C6
+ with speed grade M, core voltage 1.2V, and temperature 0 Celsius
+
+*/
+DESIGN "mux21";
+TIMESCALE "1ns";
+
+
+
+
+
+TIMINGDATA
+
+ARCDATA
+___4.705__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.092");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.092");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.962__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.289");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.289");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.955__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.287");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.287");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.681__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.065");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.065");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.026__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.367");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.367");
+}
+
+ENDARCDATA
+
+ARCDATA
+___3.315__delay:
+CELL_RISE( scalar ) {
+VALUES ("2.957");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("2.957");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.973__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.330");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.330");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.902__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.270");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.270");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.592__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.986");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.986");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.004__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.325");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.325");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.872__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.248");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.248");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.656__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.052");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.052");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.197__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.494");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.494");
+}
+
+ENDARCDATA
+
+ARCDATA
+___3.456__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.100");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.100");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.677__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.066");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.066");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.271__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.574");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.574");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.606__4.644__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.041");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.041");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.847__4.897__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.257");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.257");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.745__4.790__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.179");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.179");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.147__5.218__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.546");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.546");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.842__4.903__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.262");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.262");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.698__4.726__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.110");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.110");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.903__4.918__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.288");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.288");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.874__4.940__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.308");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.308");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

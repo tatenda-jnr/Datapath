@@ -1,0 +1,143 @@
+/*
+ Copyright (C) 2017  Intel Corporation. All rights reserved.
+ Your use of Intel Corporation's design tools, logic functions 
+ and other software and tools, and its AMPP partner logic 
+ functions, and any output files from any of the foregoing 
+ (including device programming or simulation files), and any 
+ associated documentation or information are expressly subject 
+ to the terms and conditions of the Intel Program License 
+ Subscription Agreement, the Intel Quartus Prime License Agreement,
+ the Intel MegaCore Function License Agreement, or other 
+ applicable license agreement, including, without limitation, 
+ that your use is for the sole purpose of programming logic 
+ devices manufactured by Intel and sold by Intel or its 
+ authorized distributors.  Please refer to the applicable 
+ agreement for further details.
+*/
+MODELDATA
+/*MODELDATA HEADER*/
+/*
+ This file contains Slow Corner delays for the design using part EP4CE6E22C6
+ with speed grade 6, core voltage 1.2V, and temperature 85 Celsius
+
+*/
+DESIGN "status_reg";
+TIMESCALE "1ns";
+
+
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_in_C__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.394");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.394");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_in_N__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.881");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.881");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_in_Z__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.517");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.517");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_in_C__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.092");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.092");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_in_N__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.132");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.132");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_in_Z__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.163");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.163");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__C__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.363");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.363");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__N__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.526");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.526");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__Z__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.434");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.434");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

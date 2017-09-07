@@ -1,0 +1,361 @@
+$comment
+	File created using the following command:
+		vcd file accumulator.msim.vcd -direction
+$end
+$date
+	Wed Sep  6 15:44:57 2017
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module accumulator_vhd_vec_tst $end
+$var wire 1 ! CLK $end
+$var wire 1 " input [7] $end
+$var wire 1 # input [6] $end
+$var wire 1 $ input [5] $end
+$var wire 1 % input [4] $end
+$var wire 1 & input [3] $end
+$var wire 1 ' input [2] $end
+$var wire 1 ( input [1] $end
+$var wire 1 ) input [0] $end
+$var wire 1 * load $end
+$var wire 1 + output [7] $end
+$var wire 1 , output [6] $end
+$var wire 1 - output [5] $end
+$var wire 1 . output [4] $end
+$var wire 1 / output [3] $end
+$var wire 1 0 output [2] $end
+$var wire 1 1 output [1] $end
+$var wire 1 2 output [0] $end
+
+$scope module i1 $end
+$var wire 1 3 gnd $end
+$var wire 1 4 vcc $end
+$var wire 1 5 unknown $end
+$var wire 1 6 devoe $end
+$var wire 1 7 devclrn $end
+$var wire 1 8 devpor $end
+$var wire 1 9 ww_devoe $end
+$var wire 1 : ww_devclrn $end
+$var wire 1 ; ww_devpor $end
+$var wire 1 < ww_CLK $end
+$var wire 1 = ww_load $end
+$var wire 1 > ww_input [7] $end
+$var wire 1 ? ww_input [6] $end
+$var wire 1 @ ww_input [5] $end
+$var wire 1 A ww_input [4] $end
+$var wire 1 B ww_input [3] $end
+$var wire 1 C ww_input [2] $end
+$var wire 1 D ww_input [1] $end
+$var wire 1 E ww_input [0] $end
+$var wire 1 F ww_output [7] $end
+$var wire 1 G ww_output [6] $end
+$var wire 1 H ww_output [5] $end
+$var wire 1 I ww_output [4] $end
+$var wire 1 J ww_output [3] $end
+$var wire 1 K ww_output [2] $end
+$var wire 1 L ww_output [1] $end
+$var wire 1 M ww_output [0] $end
+$var wire 1 N \CLK~inputclkctrl_INCLK_bus\ [3] $end
+$var wire 1 O \CLK~inputclkctrl_INCLK_bus\ [2] $end
+$var wire 1 P \CLK~inputclkctrl_INCLK_bus\ [1] $end
+$var wire 1 Q \CLK~inputclkctrl_INCLK_bus\ [0] $end
+$var wire 1 R \output[0]~output_o\ $end
+$var wire 1 S \output[1]~output_o\ $end
+$var wire 1 T \output[2]~output_o\ $end
+$var wire 1 U \output[3]~output_o\ $end
+$var wire 1 V \output[4]~output_o\ $end
+$var wire 1 W \output[5]~output_o\ $end
+$var wire 1 X \output[6]~output_o\ $end
+$var wire 1 Y \output[7]~output_o\ $end
+$var wire 1 Z \CLK~input_o\ $end
+$var wire 1 [ \CLK~inputclkctrl_outclk\ $end
+$var wire 1 \ \input[0]~input_o\ $end
+$var wire 1 ] \load~input_o\ $end
+$var wire 1 ^ \output[0]~reg0_q\ $end
+$var wire 1 _ \input[1]~input_o\ $end
+$var wire 1 ` \output[1]~reg0_q\ $end
+$var wire 1 a \input[2]~input_o\ $end
+$var wire 1 b \output[2]~reg0_q\ $end
+$var wire 1 c \input[3]~input_o\ $end
+$var wire 1 d \output[3]~reg0feeder_combout\ $end
+$var wire 1 e \output[3]~reg0_q\ $end
+$var wire 1 f \input[4]~input_o\ $end
+$var wire 1 g \output[4]~reg0feeder_combout\ $end
+$var wire 1 h \output[4]~reg0_q\ $end
+$var wire 1 i \input[5]~input_o\ $end
+$var wire 1 j \output[5]~reg0feeder_combout\ $end
+$var wire 1 k \output[5]~reg0_q\ $end
+$var wire 1 l \input[6]~input_o\ $end
+$var wire 1 m \output[6]~reg0feeder_combout\ $end
+$var wire 1 n \output[6]~reg0_q\ $end
+$var wire 1 o \input[7]~input_o\ $end
+$var wire 1 p \output[7]~reg0_q\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0*
+03
+14
+x5
+16
+17
+18
+19
+1:
+1;
+0<
+0=
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+1_
+0`
+0a
+0b
+1c
+1d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0"
+0#
+0$
+0%
+1&
+0'
+1(
+0)
+0+
+0,
+0-
+0.
+0/
+00
+01
+02
+0>
+0?
+0@
+0A
+1B
+0C
+1D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+1N
+1O
+1P
+0Q
+$end
+#20000
+1*
+1=
+1]
+#50000
+1!
+1<
+1Z
+1Q
+1[
+1`
+1e
+1U
+1S
+1J
+1L
+11
+1/
+#100000
+0!
+0<
+0Z
+0Q
+0[
+#150000
+1!
+1<
+1Z
+1Q
+1[
+#180000
+1%
+0&
+1'
+0(
+0D
+1C
+0B
+1A
+1f
+0c
+1a
+0_
+0d
+1g
+#200000
+0!
+0<
+0Z
+0Q
+0[
+#250000
+1!
+1<
+1Z
+1Q
+1[
+0`
+1b
+0e
+1h
+1V
+0U
+1T
+0S
+1I
+0J
+1K
+0L
+01
+10
+0/
+1.
+#300000
+0!
+0<
+0Z
+0Q
+0[
+#350000
+1!
+1<
+1Z
+1Q
+1[
+#360000
+0%
+0'
+0C
+0A
+0f
+0a
+0g
+#400000
+0!
+0<
+0Z
+0Q
+0[
+#450000
+1!
+1<
+1Z
+1Q
+1[
+0b
+0h
+0V
+0T
+0I
+0K
+00
+0.
+#500000
+0!
+0<
+0Z
+0Q
+0[
+#550000
+1!
+1<
+1Z
+1Q
+1[
+#600000
+0!
+0<
+0Z
+0Q
+0[
+#650000
+1!
+1<
+1Z
+1Q
+1[
+#700000
+0!
+0<
+0Z
+0Q
+0[
+#750000
+1!
+1<
+1Z
+1Q
+1[
+#800000
+0!
+0<
+0Z
+0Q
+0[
+#850000
+1!
+1<
+1Z
+1Q
+1[
+#900000
+0!
+0<
+0Z
+0Q
+0[
+#940000
+0*
+0=
+0]
+#950000
+1!
+1<
+1Z
+1Q
+1[
+#1000000

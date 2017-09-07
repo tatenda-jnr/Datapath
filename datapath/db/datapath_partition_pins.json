@@ -1,0 +1,225 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "N",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "Z",
+					"strict" : false
+				},
+				{
+					"name" : "acc_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "to_memory[7]",
+					"strict" : false
+				},
+				{
+					"name" : "to_memory[6]",
+					"strict" : false
+				},
+				{
+					"name" : "to_memory[5]",
+					"strict" : false
+				},
+				{
+					"name" : "to_memory[4]",
+					"strict" : false
+				},
+				{
+					"name" : "to_memory[3]",
+					"strict" : false
+				},
+				{
+					"name" : "to_memory[2]",
+					"strict" : false
+				},
+				{
+					"name" : "to_memory[1]",
+					"strict" : false
+				},
+				{
+					"name" : "to_memory[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "from_memory[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mux2sel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "from_cu[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mux2sel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "zero[7]",
+					"strict" : false
+				},
+				{
+					"name" : "accload",
+					"strict" : false
+				},
+				{
+					"name" : "from_memory[6]",
+					"strict" : false
+				},
+				{
+					"name" : "from_cu[6]",
+					"strict" : false
+				},
+				{
+					"name" : "zero[6]",
+					"strict" : false
+				},
+				{
+					"name" : "from_cu[5]",
+					"strict" : false
+				},
+				{
+					"name" : "from_memory[5]",
+					"strict" : false
+				},
+				{
+					"name" : "zero[5]",
+					"strict" : false
+				},
+				{
+					"name" : "from_cu[4]",
+					"strict" : false
+				},
+				{
+					"name" : "from_memory[4]",
+					"strict" : false
+				},
+				{
+					"name" : "zero[4]",
+					"strict" : false
+				},
+				{
+					"name" : "from_memory[3]",
+					"strict" : false
+				},
+				{
+					"name" : "from_cu[3]",
+					"strict" : false
+				},
+				{
+					"name" : "zero[3]",
+					"strict" : false
+				},
+				{
+					"name" : "from_cu[2]",
+					"strict" : false
+				},
+				{
+					"name" : "from_memory[2]",
+					"strict" : false
+				},
+				{
+					"name" : "zero[2]",
+					"strict" : false
+				},
+				{
+					"name" : "from_memory[1]",
+					"strict" : false
+				},
+				{
+					"name" : "from_cu[1]",
+					"strict" : false
+				},
+				{
+					"name" : "zero[1]",
+					"strict" : false
+				},
+				{
+					"name" : "from_cu[0]",
+					"strict" : false
+				},
+				{
+					"name" : "from_memory[0]",
+					"strict" : false
+				},
+				{
+					"name" : "zero[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mux1sel",
+					"strict" : false
+				},
+				{
+					"name" : "ALUinSel",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[4]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

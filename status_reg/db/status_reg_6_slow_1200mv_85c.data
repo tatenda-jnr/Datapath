@@ -1,0 +1,116 @@
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_in_C__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.394");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.394");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_in_N__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.881");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.881");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_in_Z__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.517");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.517");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_in_C__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.092");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.092");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_in_N__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.132");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.132");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_in_Z__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.163");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.163");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__C__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.363");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.363");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__N__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.526");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.526");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__Z__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.434");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.434");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

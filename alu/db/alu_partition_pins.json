@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "N",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "Z",
+					"strict" : false
+				},
+				{
+					"name" : "out_alu[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_alu[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_alu[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_alu[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_alu[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_alu[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_alu[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_alu[7]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[7]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[4]",
+					"strict" : false
+				},
+				{
+					"name" : "inp_b[7]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inp_b[6]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[6]",
+					"strict" : false
+				},
+				{
+					"name" : "inp_b[5]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[5]",
+					"strict" : false
+				},
+				{
+					"name" : "inp_b[4]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[4]",
+					"strict" : false
+				},
+				{
+					"name" : "inp_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "inp_b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inp_b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inp_b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

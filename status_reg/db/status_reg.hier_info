@@ -1,0 +1,12 @@
+|status_reg
+CLK => C~reg0.CLK
+CLK => Z~reg0.CLK
+CLK => N~reg0.CLK
+N << N~reg0.DB_MAX_OUTPUT_PORT_TYPE
+C << C~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Z << Z~reg0.DB_MAX_OUTPUT_PORT_TYPE
+in_N => N~reg0.DATAIN
+in_Z => Z~reg0.DATAIN
+in_C => C~reg0.DATAIN
+
+

@@ -1,0 +1,347 @@
+/*
+ Copyright (C) 2017  Intel Corporation. All rights reserved.
+ Your use of Intel Corporation's design tools, logic functions 
+ and other software and tools, and its AMPP partner logic 
+ functions, and any output files from any of the foregoing 
+ (including device programming or simulation files), and any 
+ associated documentation or information are expressly subject 
+ to the terms and conditions of the Intel Program License 
+ Subscription Agreement, the Intel Quartus Prime License Agreement,
+ the Intel MegaCore Function License Agreement, or other 
+ applicable license agreement, including, without limitation, 
+ that your use is for the sole purpose of programming logic 
+ devices manufactured by Intel and sold by Intel or its 
+ authorized distributors.  Please refer to the applicable 
+ agreement for further details.
+*/
+MODELDATA
+/*MODELDATA HEADER*/
+/*
+ This file contains Fast Corner delays for the design using part EP4CE6E22C6
+ with speed grade M, core voltage 1.2V, and temperature 0 Celsius
+
+*/
+DESIGN "accumulator";
+TIMESCALE "1ns";
+
+
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_input[0]__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.957");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.957");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[1]__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.976");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.976");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[2]__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.943");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.943");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[3]__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.048");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.048");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[4]__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.005");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.005");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[5]__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.099");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.099");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[6]__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.873");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.873");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[7]__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.932");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.932");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_load__CLK__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.524");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.524");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[0]__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.762");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.762");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[1]__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.780");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.780");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[2]__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.747");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.747");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[3]__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.845");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.845");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[4]__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.803");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.803");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[5]__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.894");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.894");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[6]__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.676");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.676");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_input[7]__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.738");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.738");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_load__CLK__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.968");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.968");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__output[0]__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.281");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.281");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__output[1]__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.244");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.244");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__output[2]__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.148");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.148");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__output[3]__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.371");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.371");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__output[4]__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.291");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.291");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__output[5]__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.265");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.265");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__output[6]__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.315");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.315");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_CLK__output[7]__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.313");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.313");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

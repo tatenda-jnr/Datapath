@@ -1,0 +1,35 @@
+|mux21
+SEL => output.OUTPUTSELECT
+SEL => output.OUTPUTSELECT
+SEL => output.OUTPUTSELECT
+SEL => output.OUTPUTSELECT
+SEL => output.OUTPUTSELECT
+SEL => output.OUTPUTSELECT
+SEL => output.OUTPUTSELECT
+SEL => output.OUTPUTSELECT
+A[0] => output.DATAB
+A[1] => output.DATAB
+A[2] => output.DATAB
+A[3] => output.DATAB
+A[4] => output.DATAB
+A[5] => output.DATAB
+A[6] => output.DATAB
+A[7] => output.DATAB
+B[0] => output.DATAA
+B[1] => output.DATAA
+B[2] => output.DATAA
+B[3] => output.DATAA
+B[4] => output.DATAA
+B[5] => output.DATAA
+B[6] => output.DATAA
+B[7] => output.DATAA
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
